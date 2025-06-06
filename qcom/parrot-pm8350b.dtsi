@@ -271,22 +271,6 @@
 		};
 	};
 
-	pm8350b-ibat-lvl0 {
-		trips {
-			ibat-lvl0 {
-				temperature = <6000>;
-			};
-		};
-	};
-
-	pm8350b-ibat-lvl1 {
-		trips {
-			ibat-lvl1 {
-				temperature = <7500>;
-			};
-		};
-	};
-
 	pm8350b-bcl-lvl0 {
 		cooling-maps {
 			vbat_lte0 {
